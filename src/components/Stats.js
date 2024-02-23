@@ -15,8 +15,8 @@ export default function Stats({ items }) {
     <footer className="stats">
       <em>
         {percentage === 100
-          ? 'Great Job! You have completed everything! Time to rest!🙂'
-          : `💼You have ${numItems} tasks on your list and you have already done ${numCompleted} tasks so far. (${percentage}% complete!)`}
+          ? 'Great Job! You have completed everything!💪 Time to rest!🙂'
+          : `You have ${numItems} tasks on your list and you have already done ${numCompleted} tasks so far. (${percentage}% complete!)`}
       </em>
     </footer>
   )
