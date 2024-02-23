@@ -21,7 +21,7 @@ export default function Form({ onAddItems }) {
 
       <input
         type="text"
-        placeholder="What are the tasks for today?"
+        placeholder="tasks..."
         value={description}
         onChange={(e) => setDescription(e.target.value)}
       />
@@ -29,3 +29,4 @@ export default function Form({ onAddItems }) {
     </form>
   )
 }
+
